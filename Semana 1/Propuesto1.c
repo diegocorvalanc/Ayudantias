@@ -3,11 +3,11 @@
 
 int main()
 {
-     int n;
+     int n; // Declaramos la variable n
 
     printf("Ingresar valor del numero: ");
-    scanf("%d",&n);
+    scanf("%i",&n); // Le asignamos un valor a la variable n 
 
-    printf("El doble y triple de %d, es %d y %d respectivamente",n,n*2,n*3);
+    printf("El doble y triple de %i, es %i y %i respectivamente",n,n*2,n*3);
     return 0;
 }

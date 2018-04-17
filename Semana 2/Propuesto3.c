@@ -4,7 +4,7 @@
 int main()
 {  
     int a,b,c;
-    printf("Escribir un programa, que permita leer tres números enteros que representan las longitudes de los lados de un triángulo. Indique si es posible formar un triángulo (a=1, b=2y c=500000).";
+    printf("Escribir un programa, que permita leer tres números enteros que representan las longitudes de los lados de un triángulo. Indique si es posible formar un triángulo (a=1, b=2y c=500000)";
     printf("Ingresar valor de lado a: "); 
     scanf("%i",&a);
     printf("Ingresar valor de lado b: ");
