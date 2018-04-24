@@ -4,15 +4,15 @@
 int suma(int a, int b, int c, int d, int e)
 {
 	int suma;
-	if (a%2 == 0)
+	if (a%2 != 0)
 		suma = suma + a;
-	if (b%2 == 0)
+	if (b%2 != 0)
 		suma = suma + b;
-	if (c%2 == 0)
+	if (c%2 != 0)
 		suma = suma + c;
-	if (d%2 == 0)
+	if (d%2 != 0)
 		suma = suma + d;
-	if (e%2 == 0)
+	if (e%2 != 0)
 		suma = suma + e;
 	
 	return suma;
@@ -33,7 +33,7 @@ int main()
 	scanf("%i",&e);
 	
 	aux = suma(a,b,c,d,e);
-	printf("La Suma de los numeros pares es: %i",aux);
+	printf("La Suma de los numeros impares es: %i",aux);
 	
 	return 0;
 }
