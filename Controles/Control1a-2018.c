@@ -27,7 +27,7 @@ int main()
 
 int contadordigitos(int num)
 {
-	int contador = 0, aux = num;
+	int contador = 0;
 	while (num !=0)
 	{
 		contador++;
