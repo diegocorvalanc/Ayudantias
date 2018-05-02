@@ -36,7 +36,7 @@ int main()
 		saldo = saldo - (uno*1000);// Se elimina el saldo ya desglozado
 	} 
 	
-	// Mensaje final
+	// Muestra de resultados
 	printf("Saldo inicial: $%i\n\nBilletes de:\nVeinte: %i\nDiez: %i\nCinco: %i\nDos: %i\nUno: %i\nSaldo Restante: $%i\n",ini,veinte,diez,cinco,dos,uno,saldo);
 	
 
