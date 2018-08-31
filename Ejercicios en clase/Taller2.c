@@ -4,6 +4,8 @@
 int suma(int n)
 {
 	int sum = 24 , c = 3, p = 13, ip = 17; // sum = (-6 + 13 + 17) 
+	if (n == 0)
+		return 0;
 	if (n == 1)
 		return -6;
 	if (n == 2)
