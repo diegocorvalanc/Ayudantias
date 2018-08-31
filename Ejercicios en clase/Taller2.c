@@ -9,7 +9,7 @@ int suma(int n)
 	if (n == 1)
 		return -6;
 	if (n == 2)
-		return (-6+13);
+		return (-6+p);
 	if (n == 3)
 		return sum;
 	while (c <= n)	
