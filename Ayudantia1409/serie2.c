@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
+/* Imprimir la siguiente serie:
+5 55 555 5555 55555... */
 
 int main()
 {

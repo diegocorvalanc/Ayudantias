@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-// Taller 3 Pauta para ayudantia 
+
+/*	Taller 3 Pauta para ayudantia 
+Se desea llevar el registro de los "N" productos de una ferreteria. Por cada producto se ingresa código, precio y cantidad (int).
+Se pide:
+	-	La cantidad de productos cuyo codigo comienza por el digito 7
+	-	Promedio de los precios de los productos que tengan cantidad en el rango [300,399]
+	-	Total de productos que su precio termina en 3 y poseen cantidad más de 700
+	-	Total de dinero recaudado por los N productos
+	-	El precio del producto que tenga la menor cantidad	*/
 
 // Headers
 int digito7(int codigo);
@@ -44,7 +52,10 @@ int main()
 		n--; // Condicion while
 	}
 	printf("La cantidad de productos cuyo codigo comienza por el digito 7 son de %d productos\n",can1); // Punto 1
-	printf("El promedio del precio de los productos entre la cantidad [300,399] es: %f\n", pre2/can2); // Punto 2
+	if (can2 == 0) // Evitar division de un denominador igual a cero
+		printf("El promedio del precio de los productos entre la cantidad [300,399] es: %d\n", 0); // Punto 2
+	else // Procedimiento normal
+		printf("El promedio del precio de los productos entre la cantidad [300,399] es: %f\n", pre2/can2); // Punto 2
 	printf("Total de productos que su precio termina en 3 y poseen cantidad mas de 700: %d\n",can3); // Punto 3
 	printf("Total de dinero recaudado por los N productos: %d\n",sumaprecio); // Punto 4
 	printf("Precio de producto con la menor cantidad: %d",pmc); // Punto 5

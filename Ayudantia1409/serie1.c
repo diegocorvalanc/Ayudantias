@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/* Inprimir la siguiente serie: 
+1 12 123 1234 12345 123456 .... */
+
 int main()
 {    
     int n, aux = 1, termino = 1;
